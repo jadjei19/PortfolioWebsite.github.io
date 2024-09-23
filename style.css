@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.section-1 {
+    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(11, 11, 235), rgba(37, 219, 204, 0.5)), url(../images/hero.jpg) center no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.section-1-heading {
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    padding: 0.3rem;
+    margin-bottom: 5rem;
+    border-bottom: 0.3rem solid white;
+    letter-spacing: 0.1rem;
+    text-shadow:0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+    text-transform:uppercase;
+    transform: skew(-10deg);
+    width: auto;
+}
+
+.section-1-img {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5rem;
+    border: .7rem solid white;
+}
+.btn {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    padding: 1rem 2rem;
+    border: .3rem solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: blue;
+}
+
+.person-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(26, 113, 243);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(0, 4, 255);
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+
+}
+.nav-link {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.3s;
+    margin: 0.3rem;
+}
+.nav-link:hover {
+    background-color: rgb(0, 4, 255);
+    color: white;
+}
+
+.section-2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 4, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(19, 61, 247);
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-shadow:0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5rem;
+}
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+.service i {
+    font-size: 5rem;
+    color: rgb(19, 61, 247);
+    margin-bottom: 1rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.service h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(19, 61, 247);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.section-3-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(19, 61, 247);
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-shadow:0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5rem;
+    text-align: center;
+    padding: 2rem;
+
+}
+.section-3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 4, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vh;
+    justify-content: space-around;
+}
+.project-img {
+    width: 60rem;
+    border: .7rem solid rgb(8, 60, 215);
+   
+}
+.project h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(19, 61, 247);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
